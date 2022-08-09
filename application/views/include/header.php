@@ -1,55 +1,39 @@
-<!DOCTYPE html> 
-<html lang="en">
-	<!--begin::Head-->
-	<head><base href="">
+	<head>
+		<base href="">
 		<meta charset="utf-8" />
 		<title>ICAN Education | Ticket Expo</title>
-		<meta name="description" content="Metronic admin dashboard live demo. Check out all the features of the admin panel. A large number of settings, additional services and widgets." />
+		<meta name="description" content="ICAN Education" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<link rel="canonical" href="https://keenthemes.com/metronic" />
-		<!--begin::Fonts-->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-		<!--end::Fonts-->
-		<!--begin::Page Vendors Styles(used by this page)-->
-		<!-- <link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" /> -->
-		<!--end::Page Vendors Styles-->
-		<!--begin::Global Theme Styles(used by all pages)-->
-		<!-- <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" /> -->
-		<!-- <link href="assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" /> -->
-		<!-- <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" /> -->
-		<!--end::Global Theme Styles-->
-		<!--begin::Layout Themes(used by all pages)-->
-		<!-- <link href="assets/css/themes/layout/header/base/light.css" rel="stylesheet" type="text/css" /> -->
-		<!-- <link href="assets/css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" /> -->
-		<!-- <link href="assets/css/themes/layout/brand/dark.css" rel="stylesheet" type="text/css" /> -->
-		<!-- <link href="assets/css/themes/layout/aside/dark.css" rel="stylesheet" type="text/css" /> -->
-		<!--end::Layout Themes-->
-		<!-- <link rel="shortcut icon" href="assets/media/logos/favicon.ico" /> -->
-
-		<!-- Ubah jadi path menggunakan php -->
-		<!--begin::Page Vendors Styles(used by this page)-->  
-		<link href="<?= base_url('assets/plugins/custom/fullcalendar/fullcalendar.bundle.css'); ?>" rel="stylesheet" type="text/css" />
-		<!--end::Page Vendors Styles-->
-		<!--begin::Global Theme Styles(used by all pages)--> 
+		<link rel="canonical" href="https://keenthemes.com/metronic" /> 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" /> 
+ 
+		<link href="<?= base_url('assets/plugins/custom/fullcalendar/fullcalendar.bundle.css'); ?>" rel="stylesheet" type="text/css" /> 
 		<link href="<?= base_url('assets/plugins/global/plugins.bundle.css'); ?>" rel="stylesheet" type="text/css" /> 
 		<link href="<?= base_url('assets/plugins/custom/prismjs/prismjs.bundle.css'); ?>" rel="stylesheet" type="text/css" /> 
-		<link href="<?= base_url('assets/css/style.bundle.css'); ?>" rel="stylesheet" type="text/css" />
-		<!--end::Global Theme Styles-->
-		<!--begin::Layout Themes(used by all pages)--> 
+		<link href="<?= base_url('assets/css/style.bundle.css'); ?>" rel="stylesheet" type="text/css" /> 
 		<link href="<?= base_url('assets/css/themes/layout/header/base/light.css'); ?>" rel="stylesheet" type="text/css" /> 
 		<link href="<?= base_url('assets/css/themes/layout/header/menu/light.css'); ?>" rel="stylesheet" type="text/css" /> 
 		<link href="<?= base_url('assets/css/themes/layout/brand/dark.css'); ?>" rel="stylesheet" type="text/css" /> 
-		<link href="<?= base_url('assets/css/themes/layout/aside/dark.css'); ?>" rel="stylesheet" type="text/css" />
-		<!--end::Layout Themes--> 
-		<link href="<?= base_url('assets/media/logos/favicon.ico'); ?>" rel="shortcut icon" />
-		<!-- End  -->
+		<link href="<?= base_url('assets/css/themes/layout/aside/dark.css'); ?>" rel="stylesheet" type="text/css" /> 
+		<link href="<?= base_url('assets/media/logos/LOGOGRAM-ICAN.png'); ?>" rel="shortcut icon" />
 
-        <script>
-            function kelapKelip() {
-                $('.coba').fadeOut();
-                $('.coba').fadeIn();
-            }
-            setInterval(kelapKelip, 1000);
-        </script>
-	</head>
-	<!--end::Head-->
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+
+		<style type="text/css">
+			@keyframes blink{
+				0%{color:black}
+				50%{color:white}
+				100%{color:black}
+			}
+			@-webkit-keyframes blink{
+				0%{color:black}
+				50%{color:white}
+				100%{color:black}
+			}
+			.blink{
+				-webkit-animation:blink 2s linear infinite;
+				-moz-animation:blink 2s linear infinite;
+				animation:blink 2s linear infinite;
+			}
+		</style> 
+	</head> 
