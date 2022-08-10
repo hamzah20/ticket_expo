@@ -61,21 +61,13 @@
 																				<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg"><?= $booth->NAME_BOOTH;?></a>
 																				<div>
 																					<span class="font-weight-bolder">Country : <?= $booth->ID_COUNTRY;?></span> 
-																				</div>
-																				<?php
-																					$jumlah_character = strlen($booth->CURRENTLY_NUMBE);
-																					if($jumlah_character == 1){
-																						$tambah_character = '0';
-																					}else{
-																						$tambah_character = '';
-																					}
-																				?>
+																				</div> 
 																				<div>
-																					<span class="font-weight-bolder">Ticket Number :  <?= $tambah_character.''.$booth->CURRENTLY_NUMBER;?></span> 
+																					<span class="font-weight-bolder">Ticket Number : <?= $booth->CURRENTLY_NUMBER-1; ?></span> 
 																				</div>
 																			</td>   
 																			<td class="text-right"> 
-                                                                                <a class="btn btn-primary confirmation btnClick btnClass" href="#"> Print Ticket </a>  
+                                                                                <a class="btn btn-primary confirmation btnClick btnClass btn_booth" href="#" value="" data-id_booth="<?= $booth->ID_BOOTH; ?>"> Print Ticket </a>  
 																			</td>
 																		</tr> 
 																	</tbody>
@@ -100,73 +92,86 @@
 		</div> 
     <?php $this->load->view('include/javascript.php'); ?> 
 
-	<script> 
-        var btnClass = document.getElementsByClassName('btnClick');
+	<script>
+		$(document).ready(function() {
+			var nama_event;
+			var lokasi_event;
+			var nama_kampus;
+			var nomor_tiket;
+			$(".btn_booth").click(function(){
 
-        var openWindow = function() {
+				var id_booth = $(this).data('id_booth');
 
-            const WinPrint = window.open(
-                "",
-                "",
-                "left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0"
-            );
+				$.ajax({
+					url : BASE_URL + 'C_Print/dataTicketPrint',
+					method : 'get',
+					data : {
+						'id_booth' : id_booth
+					},
+					success : function(response){
+						data = JSON.parse(response);
+						console.log(data);
 
-            WinPrint.document.write(`<!DOCTYPE html>
-                <html lang="en">
-                    <head>
-                        <title>ICAN Education Consultant</title>
-                        <meta charset="utf-8">
-                        <link rel='stylesheet' type='text/css' href='assets/css/style1_landscape.css' />
-                        <link rel='stylesheet' type='text/css' href='assets/css/print.css' media="print" />
-                    </head>
-                    <body>
-                        <div class="main" style="width: 290px;">
-                            <section id="content"  width:290px;">
-                                <div>
-                                    <div>   
-                                        <div style="margin:0px;padding:0px; padding-bottom: 15px;">
-                                            <center>
-                                                <div class="pad" style="margin:0px; width:2.3in; border:none; padding-top: 15px;">
-                                                    <!-- <img src="<?= base_url(); ?>assets/media/logos/LOGOGRAM-ICAN.png" style="width:100px;"/> -->
-                                                    <div style="padding: 10px 0px; text-align:center; font-size:15px; font-weight:bolder; text-transform: uppercase; color:#000000;">
-														EXPO EDUCATION TANGERANG 2022
-                                                    </div>
-                                                    <div style="padding: 0px 0px; text-align:center; font-size:12px; font-weight:normal; color:#000000;"> 
-														HOTEL EPISODE, GADING SERPONG
-														<p style="clear:both;">------------------------------------------------------</p> 
-                                                    </div>
-                                            </center>
-                                            <center>
-                                            <div style="text-align:center; font-size:15px; font-weight:bolder; color:#000000; margin: 0px">
-												TAYLORS UNIVERSITY
-												<p style="clear:both;">------------------------------------</p>
-                                            </div>
-                                            </center>
-                                            <center>
-                                                <div style="text-align:center; font-size:30px; font-weight:bolder; color:#000000;"> 
-													001
-                                                </div>
-                                            </center>
-                                        </div>
-                                    </div>
-                                </div>
-                        </section>
-                    </body>
-                </html>`);
+						nama_event 		= data.nama_event;
+						lokasi_event 	= data.lokasi_event;
+						nama_kampus 	= data.nama_kampus;
+						nomor_tiket		= data.nomor_tiket;
+					},
+					complete: function(resp) {
 
-                WinPrint.document.close();
-                WinPrint.focus();
-                setTimeout(() => {
-                    WinPrint.print()
-                    WinPrint.close()
-                }, 500);
-        }
+						const WinPrint = window.open(
+							"",
+							"",
+							"left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0"
+						);
 
+						WinPrint.document.write(`<!DOCTYPE html>
+							<html lang="en">
+								<head>
+									<title>ICAN Education Consultant</title>
+									<meta charset="utf-8">
+									<link rel='stylesheet' type='text/css' href='assets/css/style1_landscape.css' />
+									<link rel='stylesheet' type='text/css' href='assets/css/print.css' media="print" />
+								</head>
+								<body> 
+									<div class="main" style="width: 290px;">
+										<section id="content"  width:290px;">
+											<div>
+												<div>   
+													<div style="margin-bottom:50px; margin-top:50px;padding:0px; padding-bottom: 50px;"> 
+														<center>
+															<div style="text-align:center; font-size:15px; font-weight:bolder; color:#000000; margin: 0px">
+																`+nama_kampus+`
+																<p style="clear:both;">------------------------------------</p>
+															</div>
+														</center>
+														<center>
+															<div style="text-align:center; margin-bottom:50px; font-size:30px; font-weight:bolder; color:#000000;"> 
+																`+nomor_tiket+`
+															</div>
+															<p style="clear:both;">ICAN EDUCATION EXPO</p>
+														</center>
+													</div>
+												</div>
+											</div>
+										</section>
+									</div> 
+								</body>
+						</html>`);
 
-        for (var i = 0; i < btnClass.length; i++) {
-            btnClass[i].addEventListener('click', openWindow, false);
-        } 
-    </script>
+						WinPrint.document.close();
+						WinPrint.focus(); 
+
+						setTimeout(() => {
+							WinPrint.print()
+							WinPrint.close()
+						}, 500);
+
+					}
+				}); 
+			});
+		});
+	</script> 
 
 	</body> 
 </html>

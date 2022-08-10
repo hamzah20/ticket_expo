@@ -11,6 +11,16 @@ class M_Ticket extends CI_Model
         return $query;
     } 
 
+    public function selectSingularDataLimit($table, $field, $query)
+    {
+        $this->db->select('*')
+             ->from($table)
+             ->where($field, $query)
+             ->limit(1);
+        $query = $this->db->get();
+        return $query;
+    } 
+
     public function selectDoubleData($table, $field1, $query1, $field2, $query2)
     {
         $this->db->select('*')

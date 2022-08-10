@@ -36,4 +36,8 @@
 				animation:blink 2s linear infinite;
 			}
 		</style> 
+
+		<script>
+			const BASE_URL = '<?= base_url(); ?>'
+		</script>
 	</head> 

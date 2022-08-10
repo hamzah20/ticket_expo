@@ -19,7 +19,7 @@ class C_Ticket extends CI_Controller {
 		// Menjadikan IP Address sebagai session untuk dapat dijadikan id user
 		$this->load->library('session');
 		$this->session->set_userdata('id_user', $this->input->ip_address());
-	} 
+	}  
 	
 	public function getTicket()
 	{
