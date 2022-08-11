@@ -54,225 +54,143 @@
                                                                 <table class="table table-borderless table-vertical-center" rules="none" border="1px solid" >
                                                                         <!--Baris 1  -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22031 m-0">01</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22016 m-0">02</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22015 m-0">03</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22014 m-0">04</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22003 m-0">05</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22017 m-0">06</span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class="BOOTH22018 m-0">01</span></td>
+                                                                        <td class="text-center"><span class="BOOTH22017 m-0">02</span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td colspan="2" class="text-center"><span class="BOOTH22048 m-0">03</span></td>  
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td> 
                                                                     </tr>
                                                                     <!-- Baris 2 -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22012 m-0">07</span></td> 
+                                                                        <td class="text-center"><span class="BOOTH22029 m-0">04</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22013 m-0">08</span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class="BOOTH22032 m-0">05</span></td>
                                                                     </tr>
-                                                                    <!-- Baris 3 -->
+                                                                    <!-- Baris 3 -->  
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22041 m-0">09</span></td>
+                                                                        <td class="text-center"><span class="BOOTH22026 m-0">06</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22020 m-0">10</span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class="BOOTH22034 m-0">07</span></td>
                                                                     </tr>
                                                                     <!-- Baris 4 -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22039 m-0">11</span></td> 
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22025 m-0">12</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22024 m-0">13</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22022 m-0">14</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22023 m-0">15</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22009 m-0">16</span></td>
+                                                                        <td class="text-center"><span class="BOOTH22024 m-0">08</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class="BOOTH22035 m-0">09</span></td>
                                                                     </tr>
                                                                     <!-- Baris 5 -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22040 m-0">17</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22026 m-0">18</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22027 m-0">19</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22028 m-0">20</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22021 m-0">21</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22008 m-0">22</span></td>
+                                                                        <td class="text-center"><span class="BOOTH22022 m-0">10</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class="BOOTH22038 m-0">11</span></td>
                                                                     </tr>
                                                                     <!-- Baris 6 -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22019 m-0">23</span></td> 
+                                                                        <td class="text-center"><span class="BOOTH22021 m-0">12</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22007 m-0">24</span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class="BOOTH222 m-0">13</span></td>
                                                                     </tr>
                                                                     <!-- Baris 7 -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22042 m-0">25</span></td>
+                                                                        <td class="text-center"><span class="BOOTH22051 m-0">14</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22006 m-0">26</span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class="BOOTH22043 m-0">15</span></td>
                                                                     </tr>
                                                                     <!-- Baris 8 -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22043 m-0">27</span></td> 
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22029 m-0">28</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22030 m-0">29</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22051 m-0">30</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22033 m-0">31</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22005 m-0">32</span></td>
+                                                                        <td class="text-center"><span class="BOOTH22053 m-0">16</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class="BOOTH22057 m-0">17</span></td>
                                                                     </tr>
                                                                     <!-- Baris 9 -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class="BOOTH22044 m-0">33</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22037 m-0">34</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22035 m-0">35</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22036 m-0">36</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22038 m-0">37</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22003 m-0">38</span></td>
+                                                                        <td class="text-center"><span class="BOOTH22054 m-0">18</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class="BOOTH22058 m-0">19</span></td>
                                                                     </tr>
                                                                     <!-- Baris 10 -->
                                                                     <tr>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class="BOOTH22056 m-0">20</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22002 m-0">39</span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class="BOOTH22055 m-0">21</span></td>
                                                                     </tr>
-                                                                    <!-- Baris 11 -->
-                                                                    <tr>
-                                                                        <td class="text-center"><span class="BOOTH22045 m-0">40</span></td> 
+                                                                     <!-- Baris 11 -->
+                                                                     <tr>
+                                                                        <td class="text-center"><span class="BOOTH22005 m-0">22</span></td> 
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22001 m-0">41</span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
+                                                                        <td class="text-center"><span class="BOOTH22014 m-0">23</span></td>
                                                                     </tr>
                                                                     <!-- Baris 12 -->
-                                                                    <tr>
-                                                                        <td class="text-center"><span class="BOOTH22046 m-0">42</span></td> 
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22037 m-0">43</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22047 m-0">44</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22048 m-0">45</span></td>
-                                                                        <td class="text-center"><span class="BOOTH22034 m-0">46</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22050 m-0">47</span></td>
+                                                                    <tr>  
+                                                                        <td colspan="2" class="text-center bg-success" style="border:1px solid"><span class="font-weight-bold">PINTU MASUK</span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
-                                                                    </tr>
-                                                                    <!-- Baris 13 -->
-                                                                    <tr>
-                                                                        <td class="text-center"><span class=""></span></td> 
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
-                                                                    </tr>
-                                                                    <!-- Baris 14 -->
-                                                                    <tr>
-                                                                        <td class="text-center"><span class=""></span></td> 
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class="BOOTH22048 m-0">48</span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td> 
-                                                                    </tr>
-                                                                    <!-- Baris 15 -->
-                                                                    <tr>
-                                                                        <td class="text-center"><span class=""></span></td> 
-                                                                        <td class="text-center"><span class=""></span></td>
+                                                                        <td class="text-center"><span class=""></span></td>  
                                                                         <td colspan="2" class="text-center bg-danger" style="border:1px solid"><span class="font-weight-bold">PINTU KELUAR</span></td> 
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td colspan="2" class="text-center bg-success" style="border:1px solid"><span class="font-weight-bold">PINTU MASUK</span></td> 
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
-                                                                        <td class="text-center"><span class=""></span></td>
                                                                         <td class="text-center"><span class=""></span></td> 
                                                                     </tr> 
                                                                 </table>

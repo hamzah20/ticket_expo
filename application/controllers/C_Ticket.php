@@ -52,9 +52,9 @@ class C_Ticket extends CI_Controller {
 
 	public function locationBooth()
 	{
-		$id_event	= 'EXPOTGR22';
+		$id_event	= 'EXPOYOG22';
 
-		$data['booth']	= $this->M_Ticket->selectSingularData('G_BOOTH','ID_EVENT', $id_event);  
+		$data['booth']	= $this->M_Ticket->selectSingularDataASC('G_BOOTH','ID_EVENT', $id_event);  
 		$this->load->view('location_booth',$data);
 	} 
 
